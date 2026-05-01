@@ -13,6 +13,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -30,6 +31,20 @@
         thead, tfoot {
             background-color: gray;
             color: white;
+        }
+
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: gray;
+        }
+
+        tbody > tr:nth-child(even) { /* 2n-1 */
+            background-color: lightgray;
+        }
+
+        tbody > tr:nth-child(odd) {/* 2n */
+            background-color: white;
         }
 
         td.num{
@@ -178,6 +193,23 @@
             </tr>
         </tfoot>
     </table>
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia laboriosam aperiam numquam quos eos. Quo, unde eos minima eaque quam cum adipisci fugit quos necessitatibus laborum voluptatibus sed earum laboriosam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus ratione natus soluta facilis rerum magni ea perspiciatis molestias quaerat doloremque, ad consequuntur minima. Soluta, esse porro! Voluptatum reprehenderit nobis vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente doloribus nisi voluptas eveniet ut! Ab quidem velit aut doloribus eum aperiam beatae ex voluptatum nam officia, corrupti architecto dolorum labore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni nostrum facilis obcaecati, id voluptatum nesciunt voluptates animi quod qui veniam veritatis delectus illum, voluptas nam aliquid error in, cupiditate quos?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia laboriosam aperiam numquam quos eos. Quo, unde eos minima eaque quam cum adipisci fugit quos necessitatibus laborum voluptatibus sed earum laboriosam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus ratione natus soluta facilis rerum magni ea perspiciatis molestias quaerat doloremque, ad consequuntur minima. Soluta, esse porro! Voluptatum reprehenderit nobis vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente doloribus nisi voluptas eveniet ut! Ab quidem velit aut doloribus eum aperiam beatae ex voluptatum nam officia, corrupti architecto dolorum labore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni nostrum facilis obcaecati, id voluptatum nesciunt voluptates animi quod qui veniam veritatis delectus illum, voluptas nam aliquid error in, cupiditate quos?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia laboriosam aperiam numquam quos eos. Quo, unde eos minima eaque quam cum adipisci fugit quos necessitatibus laborum voluptatibus sed earum laboriosam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus ratione natus soluta facilis rerum magni ea perspiciatis molestias quaerat doloremque, ad consequuntur minima. Soluta, esse porro! Voluptatum reprehenderit nobis vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente doloribus nisi voluptas eveniet ut! Ab quidem velit aut doloribus eum aperiam beatae ex voluptatum nam officia, corrupti architecto dolorum labore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni nostrum facilis obcaecati, id voluptatum nesciunt voluptates animi quod qui veniam veritatis delectus illum, voluptas nam aliquid error in, cupiditate quos?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia laboriosam aperiam numquam quos eos. Quo, unde eos minima eaque quam cum adipisci fugit quos necessitatibus laborum voluptatibus sed earum laboriosam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus ratione natus soluta facilis rerum magni ea perspiciatis molestias quaerat doloremque, ad consequuntur minima. Soluta, esse porro! Voluptatum reprehenderit nobis vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente doloribus nisi voluptas eveniet ut! Ab quidem velit aut doloribus eum aperiam beatae ex voluptatum nam officia, corrupti architecto dolorum labore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni nostrum facilis obcaecati, id voluptatum nesciunt voluptates animi quod qui veniam veritatis delectus illum, voluptas nam aliquid error in, cupiditate quos?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia laboriosam aperiam numquam quos eos. Quo, unde eos minima eaque quam cum adipisci fugit quos necessitatibus laborum voluptatibus sed earum laboriosam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus ratione natus soluta facilis rerum magni ea perspiciatis molestias quaerat doloremque, ad consequuntur minima. Soluta, esse porro! Voluptatum reprehenderit nobis vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente doloribus nisi voluptas eveniet ut! Ab quidem velit aut doloribus eum aperiam beatae ex voluptatum nam officia, corrupti architecto dolorum labore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni nostrum facilis obcaecati, id voluptatum nesciunt voluptates animi quod qui veniam veritatis delectus illum, voluptas nam aliquid error in, cupiditate quos?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia laboriosam aperiam numquam quos eos. Quo, unde eos minima eaque quam cum adipisci fugit quos necessitatibus laborum voluptatibus sed earum laboriosam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus ratione natus soluta facilis rerum magni ea perspiciatis molestias quaerat doloremque, ad consequuntur minima. Soluta, esse porro! Voluptatum reprehenderit nobis vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente doloribus nisi voluptas eveniet ut! Ab quidem velit aut doloribus eum aperiam beatae ex voluptatum nam officia, corrupti architecto dolorum labore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni nostrum facilis obcaecati, id voluptatum nesciunt voluptates animi quod qui veniam veritatis delectus illum, voluptas nam aliquid error in, cupiditate quos?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia laboriosam aperiam numquam quos eos. Quo, unde eos minima eaque quam cum adipisci fugit quos necessitatibus laborum voluptatibus sed earum laboriosam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus ratione natus soluta facilis rerum magni ea perspiciatis molestias quaerat doloremque, ad consequuntur minima. Soluta, esse porro! Voluptatum reprehenderit nobis vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente doloribus nisi voluptas eveniet ut! Ab quidem velit aut doloribus eum aperiam beatae ex voluptatum nam officia, corrupti architecto dolorum labore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni nostrum facilis obcaecati, id voluptatum nesciunt voluptates animi quod qui veniam veritatis delectus illum, voluptas nam aliquid error in, cupiditate quos?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia laboriosam aperiam numquam quos eos. Quo, unde eos minima eaque quam cum adipisci fugit quos necessitatibus laborum voluptatibus sed earum laboriosam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus ratione natus soluta facilis rerum magni ea perspiciatis molestias quaerat doloremque, ad consequuntur minima. Soluta, esse porro! Voluptatum reprehenderit nobis vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente doloribus nisi voluptas eveniet ut! Ab quidem velit aut doloribus eum aperiam beatae ex voluptatum nam officia, corrupti architecto dolorum labore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni nostrum facilis obcaecati, id voluptatum nesciunt voluptates animi quod qui veniam veritatis delectus illum, voluptas nam aliquid error in, cupiditate quos?</p>
+
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officia laboriosam aperiam numquam quos eos. Quo, unde eos minima eaque quam cum adipisci fugit quos necessitatibus laborum voluptatibus sed earum laboriosam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Minus ratione natus soluta facilis rerum magni ea perspiciatis molestias quaerat doloremque, ad consequuntur minima. Soluta, esse porro! Voluptatum reprehenderit nobis vel. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente doloribus nisi voluptas eveniet ut! Ab quidem velit aut doloribus eum aperiam beatae ex voluptatum nam officia, corrupti architecto dolorum labore. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni nostrum facilis obcaecati, id voluptatum nesciunt voluptates animi quod qui veniam veritatis delectus illum, voluptas nam aliquid error in, cupiditate quos?</p>
 </body>
 
 </html>
